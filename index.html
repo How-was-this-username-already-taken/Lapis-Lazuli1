@@ -1,0 +1,125 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 25%;
+    height: 25px;
+    
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5%;
+    text-align: center;
+
+}
+
+h1, h2 {
+  display: inline;
+  background: #fff;
+
+}
+h1 {
+  font-size: 30px
+}
+h2 {
+  font-size: 20px;
+}
+
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   div.gallery {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   div.gallery {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   div.gallery {
+      width: 33.3%;
+      padding-bottom: 33.3%;
+   }
+}
+@media only screen and (max-width : 2400px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   div.gallery {
+      width: 25%;
+      padding-bottom: 25%;
+   }
+}
+
+</style>
+</head>
+<body>
+<div>
+<center><h1>This is Lapis Lazuli.</h1><br>
+<h2>(She's from a geeky show.)</h2><center>
+</div>
+<br>
+<hr>
+<br>
+<div class="gallery">
+  <a target="_blank" href="http://vignette1.wikia.nocookie.net/steven-universe/images/a/a2/LookBeckyItsLapis.png/revision/latest/scale-to-width-down/2000?cb=20160514223737">
+    <img src="http://vignette1.wikia.nocookie.net/steven-universe/images/a/a2/LookBeckyItsLapis.png/revision/latest/scale-to-width-down/2000?cb=20160514223737" alt="Lapis Lazuli"  width="300" height="200">
+  </a>
+  <div class="desc">This is Lapis Lazuli.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://i.pinimg.com/736x/65/5d/ae/655dae1c3e98dba58cc26e5eb77b95e0--lapis-lazuli-steven-universe-cartoon-network.jpg">
+    <img src="https://i.pinimg.com/736x/65/5d/ae/655dae1c3e98dba58cc26e5eb77b95e0--lapis-lazuli-steven-universe-cartoon-network.jpg" alt="Flower"  width="300" height="200">
+  </a>
+  <div class="desc"><br>She gets the best fanart.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT90vDKt1hysUA1rwKpqklzV4J0DLEUSlw4RVH-U1RkQ0-klphP">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT90vDKt1hysUA1rwKpqklzV4J0DLEUSlw4RVH-U1RkQ0-klphP" alt="Northern Lights"  width="300" height="200">
+  </a>
+  <div class="desc">She likes water...</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://vignette2.wikia.nocookie.net/steven-universe/images/a/a9/Peridot-deko.png/revision/latest?cb=20160202142158">
+    <img src="https://vignette2.wikia.nocookie.net/steven-universe/images/a/a9/Peridot-deko.png/revision/latest?cb=20160202142158" alt="Mountains"  width="300" height="200">
+  </a>
+  <div class="desc">...Peridot...</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/5/5d/Peninsula_croatia.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Peninsula_croatia.jpg" alt="Fjords" width="300" height="200">
+  </a>
+  <div class="desc">A peninsula is a piece of land surrounded mostly by water</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://wonderopolis.org/wp-content/uploads/2016/06/Swamp_Featured_xl_55847560_(Custom).jpg">
+    <img src="https://wonderopolis.org/wp-content/uploads/2016/06/Swamp_Featured_xl_55847560_(Custom).jpg" alt="Fjords" width="300" height="200">
+  </a>
+  <div class="desc">A swamp is a wetland that is forested</div>
+</div>
+</body>
+</html>
